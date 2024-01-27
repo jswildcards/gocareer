@@ -1,8 +1,8 @@
-package root_query
+package query
 
 import (
 	"github.com/graphql-go/graphql"
-	ping_field "github.com/jswildcards/gocareer/schema/query/field"
+	"github.com/jswildcards/gocareer/schema/query/field/ping_field"
 )
 
 var fields = graphql.Fields{
