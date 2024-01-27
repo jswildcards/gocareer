@@ -2,7 +2,7 @@ package ping_field
 
 import (
 	"github.com/graphql-go/graphql"
-	ping_controller "github.com/jswildcards/gocareer/controller"
+	"github.com/jswildcards/gocareer/controller/ping_controller"
 )
 
 var Field = &graphql.Field{
